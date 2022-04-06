@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(15, 15, 15) !important;
+    color: aliceblue !important;
+    font-family: Poppins,sans-serif;
+    padding: 1% 3% 0 3%;
+    
+}
+
+.acceuil{
+	height: 100%;
+}
+
+header{
+    height: 10%;
+}
+
+.nom{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 34px;
+    font-size: 62px;
+}
+
+.metier{
+    font-size: larger;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    text-decoration: none;
+    color: aliceblue;
+    list-style-type: none;
+    padding: 3px;
+}
+
+.logo{
+    width: 10%;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15% 0 15% 0;
+    height: 60vh;
+    justify-content: center;
+}
+
+footer{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.resSociaux{
+    color: #9f9f9f;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.langue{
+    display: flex;
+    flex-direction: row;
+    transform: rotate(90deg);
+}
+
+.langue a{
+    color: #e6e6e6;
+    display: block;
+    margin: 20px 20px 0 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+/* CSS de la page about me */
+
+.about{
+   padding: 5%; 
+   color: #9f9f9f;
+}
+
+.entete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+h4{
+    font-size: 15px !important;
+    color: #9f9f9f;
+}
+
+h1{
+    font-size: 46px;
+    padding-bottom: 40px;
+}
+
+.presentation{
+    font-size: 16px;
+    line-height: 1.95;
+
+}
+
+.content-title{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.textPresentation{
+    border-bottom: 2px solid rgba(255,255,255,.08);
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+h2{
+    font-size: 14px !important;
+}
+
+.column{
+    width: 100%;
+}
+
+.infos{
+    display: flex !important;
+    justify-content: space-between;
+    width: 100% !important;
+    margin-bottom: 3%;
+}
+
+.download{
+    margin: 0px;
+    border-radius: 20px;
+    border: 1px solid #009e66!important;
+    cursor: pointer;
+    background-color: #009e66!important;
+    color: aliceblue;
+    padding: 10px 35px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.adress{
+    display: flex;
+    margin: 0;
+}
+
+
+.reseau{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resSociauxAbout{
+    color: #9f9f9f;
+    font-size: x-large;
+    margin: 5px;
+}
+
+.services{
+    margin-top: 10%;
+}
+
+.myservice{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.card{
+    background-color: #161616 !important;
+    padding: 30px 33px;
+    width: 30% !important;
+    margin: 1%;
+}
+
+.imageservices{
+    width: 20%;
+    margin-bottom: 22px;
+}
+
+
+.nameservice{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f3f3f3;
+}
+
+.iconeservice{
+    color: #009e66 !important;
+    font-size: 58px;
+    margin-bottom: 5%;
+}
+
+
+
+
