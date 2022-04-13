@@ -69,19 +69,32 @@ footer{
 .social{
     display: flex;
     flex-direction: column;
-    
+    color:#f3f3f3 !important;
 }
 
+a:hover {
+    color:#009e66;
+    text-decoration:none;
+    }
+
 .resSociaux{
-    color: #9f9f9f;
+    color: #f3f3f3;
     font-size: x-large;
     margin-bottom: 10px;
+}
+
+.resSociaux:hover{
+    color: #009e66;
 }
 
 .langue{
     display: flex;
     flex-direction: row;
     transform: rotate(90deg);
+}
+
+.langue a:hover{
+    color: #009e66;
 }
 
 .langue a{
@@ -188,13 +201,21 @@ h2{
 .myservice{
     font-size: 38px;
     font-weight: 700;
+    color: #f3f3f3;
 }
 
 .card{
     background-color: #161616 !important;
     padding: 30px 33px;
     width: 30% !important;
-    margin: 1%;
+    margin:0 2% 2% 0;
+    transition: all .15s ease-in-out;
+    /* border-bottom: transparent 2px solid; */
+
+}
+
+.card:hover{
+    border-bottom: #009e66 2px solid;
 }
 
 .imageservices{
