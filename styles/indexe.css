@@ -83,7 +83,7 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.resSociaux:hover{
+.resSociaux :hover{
     color: #009e66;
 }
 
@@ -121,20 +121,36 @@ a:hover {
     padding-bottom: 3%;
 }
 
+.animatedBare{
+    background-color: #009e66;
+}
+
 h4{
     font-size: 15px !important;
     color: #9f9f9f;
 }
 
+.bare{
+    color: #009e66;
+}
+
 h1{
     font-size: 46px;
     padding-bottom: 40px;
+    color: #f0f0f0;
 }
 
 .presentation{
     font-size: 16px;
     line-height: 1.95;
+}
 
+h6{
+    color: #f0f0f0;
+}
+
+.infos > h6{
+    max-width: 100%;
 }
 
 .content-title{
@@ -150,6 +166,7 @@ h1{
 
 h2{
     font-size: 14px !important;
+    color: #f3f3f3;
 }
 
 .column{
@@ -194,6 +211,10 @@ h2{
     margin: 5px;
 }
 
+.resSociauxAbout :hover{
+    color: #009e66;
+}
+
 .services{
     margin-top: 10%;
 }
@@ -207,7 +228,8 @@ h2{
 .card{
     background-color: #161616 !important;
     padding: 30px 33px;
-    width: 30% !important;
+/*     width: 30% !important; */
+    max-width: 100%;
     margin:0 2% 2% 0;
     transition: all .15s ease-in-out;
     /* border-bottom: transparent 2px solid; */
